@@ -6,6 +6,8 @@ rust-version = "1.66.0"
 
 [dependencies]
 atomic-wait = "1.0.1"
+cardpack = "0.4.16"
+
 
 [target.'cfg(target_os = "linux")'.dependencies]
 libc = "0.2.138"
